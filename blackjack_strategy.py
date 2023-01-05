@@ -67,6 +67,8 @@ class BlackjackStrategy:
             tuple: A tuple containing the optimal move as a string and the optimal
             bet for the next hand as an integer. The possible values for the move are 'hit', 'stand', 'double', and 'split'.
         """
+        dealer_hand = [card.upper() for card in dealer_hand]
+        player_hand =  [card.upper() for card in player_hand]
         self.count_cards(dealer_hand)
         self.count_cards(player_hand)
         next_hand_bet = self.calculate_bet(current_bet)
