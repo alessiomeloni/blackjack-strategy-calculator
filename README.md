@@ -6,13 +6,13 @@ This is a Python project that determines the optimal move for a player in a game
 
 ## There are a few things that could be added or improved in this code:
 
-- [] Implement more advanced betting strategies, such as the Martingale or Fibonacci systems.
-- [] Add support for more complex hand situations, such as soft hands or double downs after splits.
-- [] Implement a strategy for insurance bets.
-- [] Add a function to calculate the expected return for each possible move, taking into account the current bet - and the probability of winning or losing.
-- [] Add support for multiple decks and card counting strategies.
-- [] Implement a simulation to test the effectiveness of different betting and playing strategies, with a target win rate of 55% for the player.
-- [] Write more detailed documentation and examples for each function.
+- [ ] Implement more advanced betting strategies, such as the Martingale or Fibonacci systems.
+- [ ] Add support for more complex hand situations, such as soft hands or double downs after splits.
+- [ ] Implement a strategy for insurance bets.
+- [ ] Add a function to calculate the expected return for each possible move, taking into account the current bet - and the probability of winning or losing.
+- [ ] Add support for multiple decks and card counting strategies.
+- [ ] Implement a simulation to test the effectiveness of different betting and playing strategies, with a target win rate of 55% for the player.
+- [ ] Write more detailed documentation and examples for each function.
 
 ## Usage
 ### To use the class, import it and create a new object, then call the `get_optimal_move` method with the appropriate arguments:
